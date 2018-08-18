@@ -74,5 +74,26 @@ int main() {
 
     printf("this is it %d %d %d \n\n", month, day, year);
 
+
+    int num1 = 12, num2 = 14, numAns;
+    float d1=1.2, d2=1.2, dAns;
+
+    printf("\n\n\n");
+    printf("int calc %d \n\n", num2/num1);
+    printf("float calc %f\n\n", d2/d1);
+    printf("mod %d \n\n", num2%num1);
+    printf("cast %f \n\n", (float)num2/(float)num1);
+    printf("cast2 %f \n\n", (float)num2/d1);
+    printf("no () %f \n\n", 3+6*10);
+    printf("() %f \n\n", (3+6)*10);
+    printf("no () %d \n\n", 3+6*10);
+    printf("() %d \n\n", (3+6)*10);
+
+
+    int n=1;
+
+    printf("1+=2 : %d\n\n", n+=2);
+    printf("%d+=2 : %d\n\n", n, n+=2);
+
     return 1;
 }
