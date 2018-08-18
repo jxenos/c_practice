@@ -47,5 +47,32 @@ int main() {
 
     strcpy(myName, "BOBBY");
     printf("NAMEE!!! %s \n\n", myName);
+
+
+
+
+    char middleInitial;
+
+    printf("Give me a char...\n");
+
+    scanf(" %c", &middleInitial);
+
+    printf("CHAR!!!!! %c\n\n\n", middleInitial);
+
+
+    char firstName[30], lastName[30];
+
+    printf("what is your name? \n\n");
+
+    scanf("%s %s", firstName, lastName);
+
+    printf("You're a turd %s %s", firstName, lastName);
+
+    int month, day;
+    int year;
+    scanf("%d//%d--%d", &month, &day, &year);
+
+    printf("this is it %d %d %d \n\n", month, day, year);
+
     return 1;
 }
